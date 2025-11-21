@@ -1,0 +1,20 @@
+.wrapper {
+    text-align: center;
+}
+
+.color-list {
+    list-style-type: none;
+    
+}
+
+.footer-nav {
+    list-style-type: none;
+}
+
+.red-orange-link a:link {
+    color: rgb(255, 85, 0);
+}
+
+a:hover {
+    font-size: 20px;
+}
