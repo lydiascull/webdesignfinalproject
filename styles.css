@@ -1,10 +1,18 @@
-.wrapper {
+.wrapper-index {
+    text-align: center;
+}
+
+.wrapper-about {
     text-align: center;
 }
 
 .color-list {
     list-style-type: none;
     
+}
+
+.about-list {
+    list-style-type: none;
 }
 
 .footer-nav {
@@ -17,4 +25,17 @@
 
 a:hover {
     font-size: 20px;
+}
+
+h1 {
+    font-family: 'Blue Ocean';
+    
+}
+
+h2 {
+    font-family: 'Roman antique';
+}
+
+html {
+    background-color: rgb(189, 231, 255);
 }
