@@ -1,41 +1,265 @@
+
+
+a {
+    color: rgb(0, 0, 0);
+}
+
 .wrapper-index {
     text-align: center;
 }
 
 .wrapper-about {
     text-align: center;
+
 }
+
+.wrapper-color-classes {
+    text-align: center;
+}
+
+.wrapper-color-pages {
+    text-align: center;
+}
+
 
 .color-list {
     list-style-type: none;
+    padding: 0;
+    font-size: 23px;
     
-}
-
-.about-list {
-    list-style-type: none;
 }
 
 .footer-nav {
     list-style-type: none;
+    padding: 0;
+    
 }
 
-.red-orange-link a:link {
-    color: rgb(255, 85, 0);
+.color-formula {
+    font-size: 13px;
+    margin-top: -13px;
 }
+
+.internal-page-nav {
+    list-style-type: none;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    font-size: 17px;
+}
+
+.internal-page-nav a {
+    text-decoration: none;
+    border: black solid 3px;
+    padding: 6px;
+}
+
+
+
+/* Link Colors */
+
+.red-link {
+    color: rgb(255, 0, 0);
+}
+
+.red-orange-link {
+    color: rgb(255, 72, 0);
+}
+
+.orange-link {
+    color: rgb(255, 132, 0);
+}
+
+.yellow-orange-link {
+    color: rgb(255, 179, 0);
+}
+
+.yellow-link {
+    color: rgb(255, 217, 0);
+}
+
+.yellow-green-link {
+    color: rgb(185, 206, 26);
+}
+
+.green-link {
+    color: rgb(15, 171, 15);
+}
+
+.blue-green-link {
+    color: rgb(14, 192, 142)
+}
+
+.blue-link {
+    color: rgb(0, 89, 255);
+}
+
+.blue-purple-link {
+    color: rgb(91, 54, 237);
+}
+
+.purple-link {
+    color: rgb(132, 27, 188);
+}
+
+.red-purple-link {
+    color: rgb(199, 15, 171);
+}
+
+/* End of link colors */
 
 a:hover {
     font-size: 20px;
 }
 
 h1 {
-    font-family: 'Blue Ocean';
-    
+    font-family: "remedy", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 50px;
+padding: 0;
+margin: 0;
+margin-top: 15px;
+
+
+        
 }
 
 h2 {
-    font-family: 'Roman antique';
+    font-family: "mozilla-headline", sans-serif;
+font-weight: 700;
+font-style: normal;
 }
 
-html {
-    background-color: rgb(189, 231, 255);
+
+p {
+    font-family: "mozilla-headline", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+li {
+    font-family: "mozilla-headline", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+h3 {
+    font-family: "mozilla-headline", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+h4 {
+    font-family: "mozilla-headline", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+/* Color Boxes */
+
+.red-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+
+}
+
+.red-orange-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 72, 0);
+    
+}
+
+.orange-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 132, 0);
+    
+}
+
+.yellow-orange-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 179, 0);
+    
+}
+
+.yellow-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 217, 0);
+    
+}
+
+.yellow-green-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(185, 206, 26);
+    
+}
+
+.green-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(15, 171, 15);
+    
+}
+
+.blue-green-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(14, 192, 142)
+    
+}
+
+.blue-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 89, 255);
+    
+}
+
+.blue-purple-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(91, 54, 237);
+    
+}
+
+.purple-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(132, 27, 188);
+    
+}
+
+.red-purple-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(199, 15, 171);
+    
+}
+
+/* End of color boxes */
+
+.primary-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.secondary-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.tertiary-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
